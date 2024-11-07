@@ -1,0 +1,8 @@
+const { resolve } = require("path");
+
+module.exports = {
+  "config": resolve(__dirname, "automatizaai", "config", "database.js"),
+  "modules-path": resolve(__dirname, "automatizaai", "models"),
+  "migrations-path": resolve(__dirname, "automatizaai", "database", "migrations"),
+  "seeders-path": resolve(__dirname, "automatizaai", "database", "seeds")
+};
